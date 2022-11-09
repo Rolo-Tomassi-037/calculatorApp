@@ -1,5 +1,6 @@
 
 function additionNum(){
+    //Function to add two numbers
     var first_number = Number(document.getElementById("input_1").value);
     var second_number = Number(document.getElementById("input_2").value);
     var result = first_number + second_number;
@@ -7,6 +8,7 @@ function additionNum(){
 }
 
 function subtractionNum(){
+    //Function to subtract two numbers
     var first_number = Number(document.getElementById("input_1").value);
     var second_number = Number(document.getElementById("input_2").value);
     var result = first_number - second_number;
@@ -14,6 +16,7 @@ function subtractionNum(){
 }
 
 function multiplicationNum(){
+    //Function to multiply two numbers
     var first_number = Number(document.getElementById("input_1").value);
     var second_number = Number(document.getElementById("input_2").value);
     var result = first_number * second_number;
@@ -21,6 +24,7 @@ function multiplicationNum(){
 }
 
 function divisionNum(){
+    //Function to divide two numbers
     var first_number = Number(document.getElementById("input_1").value);
     var second_number = Number(document.getElementById("input_2").value);
     var result = first_number / second_number;
@@ -28,6 +32,7 @@ function divisionNum(){
 }
 
 function squareNum(){
+    //Function to calculate square of two numbers
     var first_number = Number(document.getElementById("input_1").value);
     var second_number = Number(document.getElementById("input_2").value);
     var result1 = first_number * first_number;
@@ -36,6 +41,7 @@ function squareNum(){
 }
 
 function cubeNum(){
+    //Function to calculate cube of two numbers
     var first_number = Number(document.getElementById("input_1").value);
     var second_number = Number(document.getElementById("input_2").value);
     var result1 = first_number * first_number * first_number;
