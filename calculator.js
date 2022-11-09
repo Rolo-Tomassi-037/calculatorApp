@@ -1,29 +1,29 @@
 
 function additionNum(){
-    var first_number = parseInt(document.getElementById("input_1").value);
-    var second_number = parseInt(document.getElementById("input_2").value);
-    var result;
+    var first_number = Number(document.getElementById("input_1").value);
+    var second_number = Number(document.getElementById("input_2").value);
+    var result = first_number + second_number;
     document.getElementById("result").innerHTML = "Result :" + result;
 }
 
 function subtractionNum(){
-    var first_number = parseInt(document.getElementById("input_1").value);
-    var second_number = parseInt(document.getElementById("input_2").value);
-    var result;
+    var first_number = Number(document.getElementById("input_1").value);
+    var second_number = Number(document.getElementById("input_2").value);
+    var result = first_number - second_number;
     document.getElementById("result").innerHTML = "Result :" + result;
 }
 
 function multiplicationNum(){
-    var first_number = parseInt(document.getElementById("input_1").value);
-    var second_number = parseInt(document.getElementById("input_2").value);
-    var result;
+    var first_number = Number(document.getElementById("input_1").value);
+    var second_number = Number(document.getElementById("input_2").value);
+    var result = first_number * second_number;
     document.getElementById("result").innerHTML = "Result :" + result;
 }
 
 function divisionNum(){
-    var first_number = parseInt(document.getElementById("input_1").value);
-    var second_number = parseInt(document.getElementById("input_2").value);
-    var result;
+    var first_number = Number(document.getElementById("input_1").value);
+    var second_number = Number(document.getElementById("input_2").value);
+    var result = first_number / second_number;
     document.getElementById("result").innerHTML = "Result :" + result;
 }
 
